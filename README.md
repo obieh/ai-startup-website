@@ -183,3 +183,38 @@ Run `git --version` on the terminal to verifi git installation
 
 ![showing-branches](./img/showing-branches.png)
 
+
+# Part 3 Merging Changes
+
+### Pull Request from github
+
+![open pull request](./img/about2openpull.png)
+
+![creating pull](./img/abt2creatpullrequest.png)
+
+### Pull request created
+![PR created](./img/about2merge.png)
+
+### Merge update-navigation to main branch
+
+![merged](./img/mergedupdate-nav.png)
+
+## Updating Jerry's branch with latest changes
+
+### On the terminal use the following command to switch to Jerry's branch
+
+`git checkout add-contact-info`
+
+![switch branch](./img/checkout-pt3contac-info.png)
+
+### Pull the latest changes from main to add-contact-info branch
+
+`git pull origin main`
+
+![pull main](./img/git-pull-origin-pt3.png)
+
+## Finalizing Jerry's Contribution
+
+### Push Jerry's updated branch to Github
+
+![final jerry](./img/git-push-add-contact-info.png)
